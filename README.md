@@ -13,7 +13,7 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 # Register No:212225240114
 # Developed By: rakesh s
 
-## The 1-norm of a matrix (often called the maximum column sum norm) is calculated as the ## maximum sum of the absolute values of the elements in each column. 
+## The 1-norm of a matrix 
 ```
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
@@ -24,7 +24,7 @@ norm_of_matrix="{:.2f}".format(ans)
 print(norm_of_matrix)
 ```
 
-## #The L2 norm (or Euclidean norm) of a vector measures the "length" or "magnitude" of the vector. Or it is the square root of sum of squares of all the elements
+## #The L2 norm (or Euclidean norm) 
 ```
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
@@ -34,7 +34,7 @@ ans=np.linalg.norm(mat,2)
 norm_of_matrix="{:.2f}".format(ans)
 print(norm_of_matrix)
 ```
-## #The infinity norm of a matrix, often called the maximum row sum norm, is defined as the #maximum sum of the absolute values of the elements in each row.
+## #The infinity norm of a matrix
 ```
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
@@ -50,11 +50,12 @@ print(norm_of_matrix)
 
 
 
-```
+
 ## Output:
-<img width="1241" height="1755" alt="image" src="https://github.com/user-attachments/assets/4f6b574a-814e-4721-ac39-485cb69ad775" />
-<img width="1241" height="1755" alt="image" src="https://github.com/user-attachments/assets/994844a1-9f85-498f-9499-bc8677ec5fb7" />
-<img width="1241" height="1755" alt="image" src="https://github.com/user-attachments/assets/dd3eaaf4-6709-4261-9f9b-c23d4ef86615" />
+<img width="1241" height="1755" alt="image" src="https://github.com/user-attachments/assets/67144b71-9b10-4253-935e-9786a0e26a7c" />
+<img width="1241" height="1755" alt="image" src="https://github.com/user-attachments/assets/eebdb4f6-13c7-4859-b077-4b1be0a419ef" />
+<img width="1241" height="1755" alt="image" src="https://github.com/user-attachments/assets/13eb4199-6136-4b9f-b92e-95e5359e4971" />
+
 
 ## Result
 Thus the program for 1-norm, 2-norm and Infinity norm of a matrix are written and verified.
