@@ -14,7 +14,7 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 # Developed By: rakesh s
 
 ## The 1-norm of a matrix (often called the maximum column sum norm) is calculated as the ## maximum sum of the absolute values of the elements in each column. 
-
+```
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
@@ -22,9 +22,10 @@ mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,1)
 norm_of_matrix="{:.2f}".format(ans)
 print(norm_of_matrix)
-
+```
 
 ## #The L2 norm (or Euclidean norm) of a vector measures the "length" or "magnitude" of the vector. Or it is the square root of sum of squares of all the elements
+```
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
@@ -32,9 +33,9 @@ mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,2)
 norm_of_matrix="{:.2f}".format(ans)
 print(norm_of_matrix)
-
+```
 ## #The infinity norm of a matrix, often called the maximum row sum norm, is defined as the #maximum sum of the absolute values of the elements in each row.
-
+```
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
@@ -42,7 +43,7 @@ mat=np.array(eval(input()))
 ans=np.linalg.norm(mat,np.inf)
 norm_of_matrix="{:.2f}".format(ans)
 print(norm_of_matrix)
-
+```
 
 
 
