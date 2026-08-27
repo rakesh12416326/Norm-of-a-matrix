@@ -52,14 +52,8 @@ print(norm_of_matrix)
 
 ```
 ## Output:
-## 1-Norm of a Matrix
 <img width="1241" height="1755" alt="image" src="https://github.com/user-attachments/assets/4f6b574a-814e-4721-ac39-485cb69ad775" />
-
-
-## 2-Norm of a Matrix
 <img width="1241" height="1755" alt="image" src="https://github.com/user-attachments/assets/994844a1-9f85-498f-9499-bc8677ec5fb7" />
-
-## Infinity Norm of a Matrix
 <img width="1241" height="1755" alt="image" src="https://github.com/user-attachments/assets/dd3eaaf4-6709-4261-9f9b-c23d4ef86615" />
 
 ## Result
