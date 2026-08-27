@@ -24,7 +24,7 @@ norm_of_matrix="{:.2f}".format(ans)
 print(norm_of_matrix)
 ```
 
-## #The L2 norm (or Euclidean norm) 
+## The L2 norm (or Euclidean norm) 
 ```
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
@@ -34,7 +34,7 @@ ans=np.linalg.norm(mat,2)
 norm_of_matrix="{:.2f}".format(ans)
 print(norm_of_matrix)
 ```
-## #The infinity norm of a matrix
+## The infinity norm of a matrix
 ```
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
