@@ -52,9 +52,10 @@ print(norm_of_matrix)
 
 
 ## Output:
-<img width="1241" height="1755" alt="image" src="https://github.com/user-attachments/assets/67144b71-9b10-4253-935e-9786a0e26a7c" />
-<img width="1241" height="1755" alt="image" src="https://github.com/user-attachments/assets/eebdb4f6-13c7-4859-b077-4b1be0a419ef" />
-<img width="1241" height="1755" alt="image" src="https://github.com/user-attachments/assets/13eb4199-6136-4b9f-b92e-95e5359e4971" />
+<img width="1207" height="772" alt="image" src="https://github.com/user-attachments/assets/c631f7aa-3999-4385-9519-0d684ae2649a" />
+<img width="927" height="768" alt="image" src="https://github.com/user-attachments/assets/437d2e38-b8d4-4b3a-9364-9033c8c16d02" />
+<img width="1082" height="770" alt="image" src="https://github.com/user-attachments/assets/f42db384-fedc-45ab-964c-5c55710ede67" />
+
 
 
 ## Result
